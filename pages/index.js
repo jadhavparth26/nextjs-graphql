@@ -12,7 +12,7 @@ import {
   NetworkStatus,
 } from "@apollo/client";
 import Link from "next/link";
-import { client, LIST_LAUNCHES } from "./query";
+import { client, LIST_LAUNCHES } from "../query/query"
 import { offsetLimitPagination } from "@apollo/client/utilities";
 import { InView } from "react-intersection-observer";
 

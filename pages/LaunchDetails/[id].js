@@ -1,7 +1,7 @@
 import { useQuery } from "@apollo/client";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { client, LAUNCH_DETAILS } from "../query";
+import { client, LAUNCH_DETAILS } from "../../query/query";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import { useTheme } from "next-themes";

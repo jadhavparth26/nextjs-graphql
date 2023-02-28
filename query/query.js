@@ -11,7 +11,7 @@ const cache = new InMemoryCache({
   },
 });
 
-export const client = new ApolloClient({
+export  const client = new ApolloClient({
   uri: "https://spacex-production.up.railway.app/",
   cache,
 });
